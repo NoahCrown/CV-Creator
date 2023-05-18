@@ -24,18 +24,13 @@ const Information = () => {
             <input  value={formData.jobTo} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='jobTo' type='text' placeholder='To'/>
             <input  value={formData.jobDescription} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='jobDescription' type='text' placeholder='Job Description'/>
 
-            <button className='w-1/2 p-2 bg-green-800 rounded shadow-md mb-4'>Add</button>
-            <button className='w-1/2 p-2 bg-red-800 rounded shadow-md mb-4'>Delete</button>
-
             <p className='mb-2 text-2xl'>Education</p>
             <input  value={formData.universityName} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='universityName' type='text' placeholder='University Name'/>
             <input  value={formData.educationCity} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='city' type='text' placeholder='City'/>
             <input  value={formData.degree} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='degree' type='text' placeholder='Degree'/>
             <input  value={formData.educFrom} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='educFrom' type='text' placeholder='From'/>
             <input  value={formData.educTo} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='educTo' type='text' placeholder='To'/>
-            <button className='w-1/2 p-2 bg-green-800 rounded shadow-md mb-4'>Add</button>
-            <button className='w-1/2 p-2 bg-red-800 rounded shadow-md mb-4'>Delete</button>
-
+            
             <p className='mb-2 text-2xl'>Links</p>
             <input  value={formData.githubLink} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='githubLink' type='text' placeholder='Github Link'/>
             <input  value={formData.portfolioLink} onChange={handleInputChange} className='text-black w-1/2 p-2 rounded shadow-md mb-4' name='portfolioLink' type='text' placeholder='Portfolio Link'/>
